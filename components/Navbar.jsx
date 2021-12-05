@@ -28,8 +28,8 @@ function Navbar({ router }) {
             </div>
               <div className="lg:px-6 lg:w-3/12 flex justify-center items-center">
                 <ul className='navbar-user flex '>
-                  <li className='list-none mr-6'><Link href='cart'><a><img src="navbar/user-section/cart.svg" alt="" /></a></Link></li>
-                  <li className='list-none ml-6'><Link href='cart'><a><img src="navbar/user-section/user.svg" alt="" /></a></Link></li>
+                  <li className='list-none mr-6'><Link href=''><a><img src="navbar/user-section/cart.svg" alt="" /></a></Link></li>
+                  <li className='list-none ml-6'><Link href=''><a><img src="navbar/user-section/user.svg" alt="" /></a></Link></li>
                 </ul>
               </div>
           </div>
