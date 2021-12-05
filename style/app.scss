@@ -675,9 +675,109 @@ footer {
                 height: 104px;
             }
         }
-        .card {
-            width: 400px;
-            background-color: #D5BB73;
+        .card-section {
+            display: flex;
+            justify-content: center;
+            margin: 100px 0px;
+            .card {
+                width: 400px;
+                background-color: #D5BB73;
+                border-radius: 20px;
+                margin: 0px 25px;
+                height: fit-content;
+                .card-top {
+                    text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    .card-title {
+                        width: fit-content;
+                        margin: 30px 0px;
+                        h1 {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 900;
+                            font-size: 48px;
+                            line-height: 64px;
+                            color: #862513;
+                        }
+                    }
+                    .card-price {
+                        width: 125px;
+                        height: 80px;
+                        margin: 30px 0px;
+                        h1 {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 600;
+                            font-size: 24px;
+                            line-height: 32px;
+                            color: #862513;
+                            font-style: italic;
+                        }
+                        p {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 24px;
+                            color: #8A8A8A;
+                            font-style: italic;
+                        }
+                    }
+                    .card-button {
+                        width: 100px;
+                        height: 50px;
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+                        background-color: #862513;
+                        border-radius: 10px;
+                        margin: 30px 0px 60px 0px;
+                        color: #fff;
+                        &:hover {
+                            background-color: #fff;
+                            color: #862513;
+                        }
+                        a {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+                .card-bottom {
+                    background-color: #862513;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 20px;
+                    margin-bottom: auto;
+                    .card-title {
+                        margin: 40px 0px 30px 0px;
+                        h1 {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 700;
+                            font-size: 28px;
+                            line-height: 40px;
+                            color: #fff;
+                        }
+                    }
+                    .card-features {
+                        width: 300px;
+                        height: fit-content;
+                        margin-bottom: 40px;
+                        li {
+                            font-family: 'Inter', sans-serif;
+                            font-weight: 300;
+                            font-size: 16px;
+                            line-height: 26px;
+                            color: #fff;
+                            list-style: inside;
+                        }
+                    }
+                }
+            }
         }
     }
 }
