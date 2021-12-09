@@ -20,7 +20,7 @@ export default function Welcoming() {
             </div>
 
             <div className="illustrator">
-              <Link href='#'><img src="home-page/welcoming/welcome-homepage-illustration.svg" alt="" /></Link>
+              <img src="home-page/welcoming/welcome-homepage-illustration.svg" alt="" />
             </div>
           </div>
         </section>
