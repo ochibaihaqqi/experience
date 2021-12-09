@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Experience | Homes</title>
+        <title>Experience | Home</title>
       </Head>
 
       <body>
