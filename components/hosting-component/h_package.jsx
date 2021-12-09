@@ -1,6 +1,7 @@
 import Link from "next/dist/client/link"
 
 export default function H_package() {
+
 	return(
 		<>
 		<section className='h_package'>
@@ -16,11 +17,11 @@ export default function H_package() {
 					<div className="card">
 						<div className="card-top">
 							<div className="card-title">
-								<h1>Gold</h1>
+								<h1>Silver</h1>
 							</div>
 							<div className="card-price">
-								<h1>$4.95/mo*</h1>
-								<p>Normally $13.99 12/mo term</p>
+								<h1>$2.65/mo*</h1>
+								<p>Normally $9.99 12/mo term</p>
 							</div>
 							<div className="card-button">
 								<Link href="#"><a>Select</a></Link>
@@ -42,9 +43,6 @@ export default function H_package() {
 									<li>Free Domain - 1 year</li>
 									<li>Free CDN Include</li>
 									<li>Free SSL Certificate</li>
-									<li>Free Office 365 - 30 Days</li>
-									<li>Free Domain Privacy</li>
-									<li>Free Automated Backup - 1 Year</li>
 									{/* <li>Free CDN Includede</li> */}
 								</ul>
 							</div>
@@ -92,11 +90,11 @@ export default function H_package() {
 					<div className="card">
 						<div className="card-top">
 							<div className="card-title">
-								<h1>Gold</h1>
+								<h1>Platinum</h1>
 							</div>
 							<div className="card-price">
-								<h1>$4.95/mo*</h1>
-								<p>Normally $13.99 12/mo term</p>
+								<h1>$11.95/mo*</h1>
+								<p>Normally $28.99 12/mo term</p>
 							</div>
 							<div className="card-button">
 								<Link href="#"><a>Select</a></Link>
@@ -120,9 +118,8 @@ export default function H_package() {
 									<li>Free SSL Certificate</li>
 									<li>Free Office 365 - 30 Days</li>
 									<li>Free Domain Privacy</li>
-									<li>Free Automated Backup - 1 Year</li>
-									<li>Free Automated Backup - 1 Year</li>
-									<li>Free Automated Backup - 1 Year</li>
+									<li>Free Automated Backup</li>
+									<li>Free Dedicated IP</li>
 									{/* <li>Free CDN Includede</li> */}
 								</ul>
 							</div>
