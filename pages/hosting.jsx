@@ -3,36 +3,28 @@ import Link from 'next/link'
 import Navbar from '../components/Navbar'
 import Footer from '../components/footer'
 import H_package from '../components/hosting-component/h_package'
+import H_welcoming from '../components/hosting-component/h_welcoming'
+import H_allplaninclude from '../components/hosting-component/h_allplaninclude'
+
 
 export default function Hosting () {
 	return (
 		<>
 		<Head>
         	<title>Experience | Hosting</title>
-      	</Head>
+    </Head>
 
 		<Navbar/>
 		
-		<section className='h_welcoming'>
-          <div className="container">
-
-            <div className="content">
-                <div className='title'>
-                  <h1>Hosting Service And More</h1>
-                </div>
-                <div className='subtitle mt-4'>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies etiam proin vel malesuada aliquam est. Ut accumsan, accumsan augue ac lectus sed faucibus. Tincidunt varius.</p>
-                </div>
-            </div>
-
-            <div className="illustrator">
-              <Link href='#'><img src="hosting/welcoming/welcome-hosting-illustration.svg" alt="" /></Link>
-            </div>
-          </div>
-        </section>
+    <H_welcoming/>
 
 		<H_package/>
 
+    <H_allplaninclude/>
+
+    <section>
+      
+    </section>
 
 		<Footer/>
 		</>
