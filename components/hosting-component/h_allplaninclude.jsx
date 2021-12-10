@@ -1,7 +1,7 @@
 export default function H_allplaninclude() {
 	return (
 		<>
-		    <section className="h_allplaninclude">
+	<section className="h_allplaninclude">
       <div className="container">
         
         <div className="title">
