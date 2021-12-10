@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import H_package from '../components/hosting-component/h_package'
 import H_welcoming from '../components/hosting-component/h_welcoming'
