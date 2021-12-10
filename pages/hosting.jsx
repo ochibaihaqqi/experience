@@ -5,6 +5,8 @@ import Footer from '../components/footer'
 import H_package from '../components/hosting-component/h_package'
 import H_welcoming from '../components/hosting-component/h_welcoming'
 import H_allplaninclude from '../components/hosting-component/h_allplaninclude'
+import H_faq from '../components/hosting-component/h_faq'
+
 
 
 export default function Hosting () {
@@ -12,19 +14,17 @@ export default function Hosting () {
 		<>
 		<Head>
         	<title>Experience | Hosting</title>
-    </Head>
+    	</Head>
 
 		<Navbar/>
 		
-    <H_welcoming/>
+    	<H_welcoming/>
 
 		<H_package/>
 
-    <H_allplaninclude/>
+    	<H_allplaninclude/>
 
-    <section>
-      
-    </section>
+		<H_faq/>				
 
 		<Footer/>
 		</>
