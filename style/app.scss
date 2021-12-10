@@ -871,3 +871,65 @@ footer {
         }
     }
 }
+
+.h_faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #391817;
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        .title {
+            text-align: center;
+            margin: 100px 0px;
+            h1 {
+                font-family: 'Inter', sans-serif;
+                font-weight: 900;
+                font-size: 72px;
+                line-height: 98px;
+                color: #fff;
+            }
+            h2 {
+                font-family: 'Inter', sans-serif;
+                font-weight: 900;
+                font-size: 72px;
+                line-height: 98px;
+                color: #D5BB73;
+            }
+        }
+        .frame {
+            width: 1500px;
+            margin-bottom: 100px;
+            .break_line {
+                background-color: #CDC0BE;
+                border-radius: 100px;
+                width: 1500px;
+                height: 10px;
+            }
+            .title {
+                text-align: start;
+                margin-top: 0px;
+                margin-bottom: 20px;
+                h1 {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 900;
+                    font-size: 40px;
+                    line-height: 52px;
+                    color: #fff;
+                    margin-top: 30px;
+                }
+            }
+            p {
+                font-family: 'Inter', sans-serif;
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 32px;
+                color: #969BAB;
+            }
+        }
+    }
+}
