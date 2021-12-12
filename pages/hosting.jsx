@@ -9,6 +9,7 @@ import H_faq from '../components/hosting-component/h_faq'
 
 
 
+
 export default function Hosting () {
 	return (
 		<>
