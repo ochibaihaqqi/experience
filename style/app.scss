@@ -933,3 +933,107 @@ footer {
         }
     }
 }
+
+.d_welcoming {
+    background-color: #D5BB73;
+    display: flex;
+    justify-content: center;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 304px;
+        margin-bottom: 304px;
+        height: 500px;
+        width: 1233px;
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            .title {
+                width: 540px;
+                height: 294px;
+                h1 {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 900;
+                    font-size: 72px;
+                    line-height: 98px;
+                    color: #862513;
+                }
+            }
+            .subtitle {
+                width: 540px;
+                height: 100px;
+                p {
+                    font-family: 'Inter', sans-serif;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 32px;
+                    color: #18191F;
+                }
+            }
+        }
+        .illustrator {
+            width: 540px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
+
+.d_check {
+    background-color: #391817;
+    display: flex;
+    justify-content: center;
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 100px 0px;
+        .title {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 80px;
+            h1 {
+                font-family: 'Inter', sans-serif;
+                font-weight: 900;
+                font-size: 72px;
+                line-height: 98px;
+                color: #fff;
+            }
+            h2 {
+                font-family: 'Inter', sans-serif;
+                font-weight: 900;
+                font-size: 72px;
+                line-height: 98px;
+                color: #D5BB73;
+            }
+        }
+        .search_input {
+            width: 900px;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            input {
+                width: 750px;
+                height: 70px;
+                border-radius: 80px;
+                text-align: center;
+                font-family: 'Inter', sans-serif;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 32px;
+            }
+             ::placeholder {
+                font-family: 'Inter', sans-serif;
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 32px;
+                color: #969BAB;
+            }
+        }
+    }
+}
